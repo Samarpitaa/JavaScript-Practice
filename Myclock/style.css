@@ -1,0 +1,29 @@
+body {
+  background-image: linear-gradient(to right, turquoise ,white);
+}
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #766f74;
+    font-size: 40px;
+    font-family: fantasy;
+    letter-spacing: 7px;
+   
+
+
+}
+#element {
+  font-size: 40px;
+  font-family: fantasy;
+  letter-spacing: 7px;
+  padding: 10px;
+  text-align: center;
+  color: #76766f;
+  transform: translateX(-70%) translateY(-50);
+   display: flex;
+   justify-content: space-around;
+    align-items: center;
+    margin:53px 0;
+}
